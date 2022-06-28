@@ -5,7 +5,7 @@ The health-care devices uploads the sensory feed to the Blockchain, the data sto
 1. VS Code
 2. Ganache
 3. VS Studio with C++ Build Tools
-4. Truffle
+4. Nodejs
 5. Python3
 6. git
 
