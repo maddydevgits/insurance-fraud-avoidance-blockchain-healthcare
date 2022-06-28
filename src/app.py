@@ -30,7 +30,7 @@ while True:
     l=len(bp)
     if l>count:
         for i in range(count,l):
-            if(bp[i]<60 or bp[i]>140) or (pulse<40) or (bodytemp>107) or (glucose>8):
+            if(bp[i]<60 or bp[i]>140) or (pulse[i]<40) or (bodytemp[i]>107) or (glucose[i]>8):
                 verifyIdentity(owneremail)
                 amount=random.randint(199999,2999999)
 
@@ -44,7 +44,7 @@ while True:
                     except:
                         sleep(10)
 
-            payload='{"BP":'+str(bp[i])+',"Pulse":'+str(pulse[i])+',"Body Temp": '+str(bodytemp)+', "Glucose": '+str(glucose)+'}'
+            payload='{"BP":'+str(bp[i])+',"Pulse":'+str(pulse[i])+',"Body Temp": '+str(bodytemp[i])+', "Glucose": '+str(glucose[i])+'}'
             print(payload)
             sleep(4)
         else:
