@@ -10,8 +10,9 @@ The health-care devices uploads the sensory feed to the Blockchain, the data sto
 6. git
 
 # Packages
-1. pip install web3
-2. pip install boto3
+1. npm install -g truffle
+2. pip install web3
+3. pip install boto3
 
 # Process
 1. Install softwares
